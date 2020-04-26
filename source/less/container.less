@@ -1,0 +1,33 @@
+.container {
+  box-sizing: border-box;
+  width: 320px;
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media (min-width: @tablet-width) {
+  .container {
+    box-sizing: border-box;
+    width: @tablet-width;
+    margin: 0 auto;
+    padding-right: 21px;
+    padding-left: 21px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .container {
+    box-sizing: border-box;
+    width: @desktop-width;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .container--desktop {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
